@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String
-from src.database.db import Base
+from src.database.connection import Base
 import string, random
 
 class Url(Base):

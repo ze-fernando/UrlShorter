@@ -5,9 +5,5 @@ class UrlRequest(BaseModel):
     url: str
 
 
-class UrlResponse(BaseModel):
-    id: int
-    url: str
+class ShortCodeRequest(BaseModel):
     short_code: str
-    created_at: datetime
-    updated_at: datetime
