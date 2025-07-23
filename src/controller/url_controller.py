@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from src.schemas.url_schema import UrlRequest, ShortCodeRequest 
+from src.schemas.url_schema import UrlRequest 
 from src.service.url_service import UrlService
 from src.database.connection import get_db
 
